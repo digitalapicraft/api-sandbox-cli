@@ -3,8 +3,8 @@ class ApiSandbox < Formula
 
   desc "CLI for API sandboxes. Test your APIs in a sandbox env."
   homepage "https://www.digitalapi.ai/"
-  url "https://files.pythonhosted.org/packages/51/ca/4f084d53ccb731d084ee0ab3d1305d6452488a97930357e58ae5565eac79/api_sandbox-0.1.4.tar.gz"
-  sha256 "80f4873664abe3382c2b0538ff15a5f440466320384c238b1dc36b685ed1673d"
+  url "https://files.pythonhosted.org/packages/20/a9/b547cfe2dab679e685371d6213605a9c5658621391b39023bca7a7012b3a/api_sandbox-0.1.5.tar.gz"
+  sha256 "8008c936f90c2ff8b152dd2bd7f6830e367d7f2b71651171e438ac1c1df22724"
   license "LicenseRef-Proprietary"
 
   depends_on "pkgconf" => :build
