@@ -1,0 +1,19 @@
+name: verify-formula
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  brew-install:
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install formula
+        run: brew install --build-from-source ./Formula/api-sandbox.rb
+
+      - name: Verify binary
+        run: sdb --help
