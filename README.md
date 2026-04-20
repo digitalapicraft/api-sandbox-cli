@@ -2,17 +2,17 @@
 
 Public Homebrew tap for [`api-sandbox`](https://pypi.org/project/api-sandbox/).
 
-Install directly:
-
-```bash
-brew install digitalapicraft/api-sandbox-cli/api-sandbox
-```
-
-Or tap once, then install by name:
+Tap once, then install by name:
 
 ```bash
 brew tap digitalapicraft/api-sandbox-cli https://github.com/digitalapicraft/api-sandbox-cli
 brew install api-sandbox
+```
+
+One-line version:
+
+```bash
+brew tap digitalapicraft/api-sandbox-cli https://github.com/digitalapicraft/api-sandbox-cli && brew install api-sandbox
 ```
 
 Verify:
